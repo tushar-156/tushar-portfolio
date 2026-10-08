@@ -1,0 +1,41 @@
+.language-switcher {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 4px 12px;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.language-switcher:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--primary);
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    color: #94a3b8;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 2px 4px;
+    transition: all 0.2s;
+}
+
+.lang-btn.active {
+    color: var(--primary);
+}
+
+.divider {
+    width: 1px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.globe-icon {
+    color: #64748b;
+    font-size: 0.9rem;
+}
